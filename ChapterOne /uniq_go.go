@@ -30,6 +30,7 @@ func main() {
 	}
 }
 
+// 计数
 func countsLine(f *os.File, counts map[string]int) {
 	input := bufio.NewScanner(f)
 	for input.Scan() {
